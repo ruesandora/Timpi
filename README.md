@@ -88,7 +88,7 @@ curl -o - -L https://ss-t.timpi.nodestake.top/${SNAP_NAME}  | lz4 -c -d - | tar 
 ./TimpiChain tx staking create-validator --amount=1000000utimpiTN --pubkey=$(./TimpiChain tendermint show-validator)  --moniker=rues --chain-id=TimpiChainTN --from cüzdanadresiveyaismi --keyring-backend test --commission-rate="0.10" --commission-max-rate="0.20" --commission-max-change-rate="0.01" --min-self-delegation="1000000" --gas="auto" --gas-prices="0.0025utimpiTN" --gas-adjustment="1.5"
 ```
 
-
+> Önemli: Bu projenin testneti dışında hiç bir şeye katılmayacağım.
 
 
 
